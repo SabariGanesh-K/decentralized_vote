@@ -2,7 +2,7 @@ require("@nomiclabs/hardhat-waffle");
 require("dotenv").config();
 
 const accounts = {
-  mnemonic: process.env.MNEMONIC,
+  mnemonic: process.env.REACT_APP_MNEMONIC,
 };
 
 module.exports = {
